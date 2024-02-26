@@ -449,6 +449,54 @@ header {
   color: var(--white-color);
 }
 
+.about-content-right {
+  width: 50%;
+  padding: 8rem 0 0 6rem;
+}
+
+.section-heading-sm {
+  font-size: 1.2rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  color: var(--logo-color);
+}
+
+.section-heading-lg {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: var(--white-color);
+  margin: 3rem 0;
+}
+
+.section-border {
+  width: 50rem;
+  height: 0.1rem;
+  background-color: #333;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.section-border::after {
+  content: "";
+  width: 7rem;
+  height: 0.7rem;
+  background-color: var(--logo-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about p {
+  width: 50rem;
+  font-size: 1.4rem;
+  color: var(--white-color);
+  line-height: 3.5rem;
+  margin-bottom: 4rem;
+}
+
 /* end about */
 
 /* end container */
